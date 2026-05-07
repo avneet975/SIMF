@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMF Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <h1>SIMF User Dashboard</h1>
+
+    <div class="card">
+        <h2>Authentication Status</h2>
+        <p>User Successfully Verified</p>
+    </div>
+
+    <div class="card">
+        <h2>Privacy Controls</h2>
+        <button onclick="enablePrivacy()">
+            Enable Privacy Protection
+        </button>
+    </div>
+
+    <div class="card">
+        <h2>Blockchain Verification</h2>
+        <button onclick="verifyTransaction()">
+            Verify Transaction
+        </button>
+    </div>
+
+    <div class="card">
+        <h2>Interoperability Simulation</h2>
+        <button onclick="simulateInterop()">
+            Connect Platform
+        </button>
+    </div>
+
+    <div class="card">
+        <h2>Monitoring System</h2>
+        <button onclick="generateAlert()">
+            Generate Security Alert
+        </button>
+    </div>
+
+    <div class="card">
+        <h2>System Logs</h2>
+        <div id="logs"></div>
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+<script src="blockchain.js"></script>
+<script src="interoperability.js"></script>
+<script src="monitor.js"></script>
+
+</body>
+</html>
